@@ -15,9 +15,6 @@ tags:
 
 # Basic Python Course (1/4)
 
-유튜브 링크: https://www.youtube.com/watch?v=rfscVS0vtbw
-
-
 **Python 1**
 
 
@@ -163,5 +160,9 @@ float(num1) → decimal 숫자를 숫자로 표시해서 숫자까리 더해줄 
 ![image-20211007155921347](../images/2021-10-07-pythonprac/image-20211007155921347.png)
 
 
+
+
+
+**[참고]** 유튜브 링크: https://www.youtube.com/watch?v=rfscVS0vtbw
 
 -끝-
