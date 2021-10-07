@@ -7,7 +7,7 @@ Title: Basic Python Course (1/4)
 유튜브 링크: https://www.youtube.com/watch?v=rfscVS0vtbw
 
 
-**Python1 (2021.10.02 토)**
+**Python 1**
 
 
 
