@@ -1,6 +1,17 @@
 ---
 Title: Basic Python Course (1/4)
+categories:
+  - python
+tags:
+  - python
+  - computer science
+  - variables & data types
+  - working with strings
+  - mad libs game
+  - basic python
 ---
+
+
 
 # Basic Python Course (1/4)
 
