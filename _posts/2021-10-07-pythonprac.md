@@ -1,9 +1,8 @@
 ---
-layout: single
 Title: Basic Python Course (1/4)
 ---
 
-# First Python Lecture
+# Basic Python Course (1/4)
 
 유튜브 링크: https://www.youtube.com/watch?v=rfscVS0vtbw
 
