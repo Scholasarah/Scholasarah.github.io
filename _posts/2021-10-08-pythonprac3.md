@@ -1,9 +1,24 @@
 ---
-Title:
+Title: Basic Python Course (3/4)
+categories:
+  - python
+tags:
+  - python
+  - computer science
+  - dictionary
+  - while 반복문
+  - for 반복문
+  - guessing game
+  - exponent function
+  - nested loops
+  - translator
+---
 
 
 
+# Basic Python Course (3/4)
 
+**Python 3**
 
 
 
