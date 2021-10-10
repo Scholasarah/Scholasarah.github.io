@@ -21,7 +21,7 @@ tags:
 
 **Variables & Data Types**
 
-![image-20211007154249367](../images/2021-10-07-pythonprac/image-20211007154249367.png)
+![pythonCode](/images/2021-10-07-pythonprac/image-20211007154249367.png)
 =======
 
 
