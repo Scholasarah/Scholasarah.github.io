@@ -12,4 +12,17 @@ tags:
 
 # Beginner Python Projects (1/12)
 
-**Python Project**
+**Madlibs**
+
+
+
+
+
+
+
+
+* [12 Beginner Python Project - Coding Course](https://youtu.be/8ext9G7xspg)
+  * 초급 Python 프로젝트-코딩 과정
+
+-끝-
+
