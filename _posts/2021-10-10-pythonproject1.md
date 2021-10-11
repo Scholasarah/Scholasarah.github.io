@@ -36,7 +36,7 @@ python 에서 알아야하는 함수는
 
 
 
-```
+```python
 
 # string concatenation (aka how to put strings together)
 # suppose we want to create a string that says "subscribe to _____ "
