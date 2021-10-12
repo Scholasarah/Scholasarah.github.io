@@ -161,6 +161,18 @@ is_male 이 True/False에 한에,
 
 
 
+If statement 사용법:
+
+맨 처음 문장은 **If** statement:
+
+Multiple 일 경우 모두 if & else statement 사이에 **elif statment**:
+
+맨 마지막은 **Else** statement:
+
+
+
+
+
 **If Statements & Comparisons**
 
 ![image-20211007193555386](/images/2021-10-07-pythonprac2/image-20211007193555386.png)
