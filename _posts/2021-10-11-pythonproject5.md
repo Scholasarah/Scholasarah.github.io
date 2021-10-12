@@ -16,7 +16,7 @@ tags:
 
 First, choose a random English word.
 
-https://stackoverflow.com/questions/594273/how-to-pick-a-random-english-word-from-a-list 
+Link: [[How to pick a random english word from a list]](https://stackoverflow.com/questions/594273/how-to-pick-a-random-english-word-from-a-list)
 
 ![image-20211011141524111](/images/2021-10-11-pythonproject5/image-20211011141524111.png)
 
@@ -160,6 +160,23 @@ print(arr)
 출처: [[Python] list comprehension에 대한 즐거운 이해](https://shoark7.github.io/programming/python/about-list-comprehension-python) 
 
 
+
+> > 정리해보면, [letter if letter in used_letters else '-' for letter in word]는 
+
+```python
+word_list = [letter if letter in used_letters else '-' for letter in word]
+print('Current word: ', ' '.join(word_list))
+```
+
+만약, word = ABC,
+
+[ (letter if letter in used_letters else '-') **for** (A, B, C) **in** (ABC) ]
+
+→ ABC 단어에서 A, B, C의 letter (변수)가
+
+used_letters에 있으면 그 letter를 쓰고,
+
+없다면, ' - '로 표현.
 
 
 
