@@ -102,7 +102,7 @@ print('Current word: ', ' '.join(word_list))
 
 **[letter if letter in used_letters else '-' for letter in word]란 무엇일까?**
 
-> > **List Comprehension 기본 문법**
+> > **List Comprehension** 기본 문법
 
 ```python
 size = 10
@@ -153,13 +153,13 @@ print(arr)
 
 <u>[ (변수를 활용한 값) **for** (사용할 변수 이름) **in** (순회할 수 있는 값) ]</u>
 
-
-
 출처: [[Python] list comprehension에 대한 즐거운 이해](https://shoark7.github.io/programming/python/about-list-comprehension-python) 
 
 
 
-> > 정리해보면, [letter if letter in used_letters else '-' for letter in word]는 
+
+
+> > 정리해보면, **[letter if letter in used_letters else '-' for letter in word]**는 
 
 ```python
 word_list = [letter if letter in used_letters else '-' for letter in word]
