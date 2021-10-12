@@ -83,17 +83,15 @@ hangman()
 
 **if user_letter in alphabet - used_letters:**
 
-​		**used_letters.add(user_letter)**
+​				**used_letters.add(user_letter)**
 
 → if this is a valid character in the alphabet that I haven’t used yet, i will add the (user_letter) to (used_letters) set.
 
 **if user_letter in word_letters:**
 
-​		**word_letters.remove(user_letter)**
+​				**word_letters.remove(user_letter)**
 
 → if the letter I have just guessed is in the word, I will remove that letter from (word_letters).
-
-
 
 
 
