@@ -73,19 +73,93 @@ hangman()
 
 
 
+​	alphabet = 알파벳.대문자
+
+​	used_letters = set()  #user가 guess한 letter
+
+​	user_letter = user가 작성한 letter
+
+![image-20211012185246532](/images/2021-10-11-pythonproject5/image-20211012185246532.png)
+
 **if user_letter in alphabet - used_letters:**
 
 ​		**used_letters.add(user_letter)**
 
 → if this is a valid character in the alphabet that I haven’t used yet, i will add the (user_letter) to (used_letters) set.
 
-
-
 **if user_letter in word_letters:**
 
 ​		**word_letters.remove(user_letter)**
 
 → if the letter I have just guessed is in the word, I will remove that letter from (word_letters).
+
+
+
+
+
+```python
+word_list = [letter if letter in used_letters else '-' for letter in word]
+print('Current word: ', ' '.join(word_list))
+```
+
+**[letter if letter in used_letters else '-' for letter in word]란 무엇일까?**
+
+> > **List Comprehension 기본 문법**
+
+```python
+size = 10
+arr = [0] * size
+for i in range(len(size)):
+    arr[i] = i * 2
+```
+
+(설명)
+
+size = 10
+
+arr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+```python
+for i in range(len(size)):
+    arr[i] = i * 2
+```
+
+→ i = o,
+
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+→ i = 1,
+
+[0, 2, 0, 0, 0, 0, 0, 0, 0, 0]
+
+→ i = 2,
+
+[0, 2, 4, 0, 0, 0, 0, 0, 0, 0]
+
+...
+
+→ i = 9,
+
+[0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+
+
+
+위에 표현한 3 line이 아래의 하나의 line으로 표현할 수 있음:
+
+```python
+size = 10
+arr = [i * 2 for i in range(size)]
+
+print(arr)
+```
+
+<u>[ (변수를 활용한 값) **for** (사용할 변수 이름) **in** (순회할 수 있는 값) ]</u>
+
+
+
+출처: [[Python] list comprehension에 대한 즐거운 이해](https://shoark7.github.io/programming/python/about-list-comprehension-python) 
+
+
 
 
 
