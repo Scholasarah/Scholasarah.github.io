@@ -15,6 +15,26 @@ tags:
 **Lesson 5:War Card Game UI Construction**
 
 
+
+<u>Stack 방법:</u>
+
+HStack - 이미지/텍스트를 양옆으로 stack
+
+VStack - 이미지/텍스트를 위 아래로 stack
+
+ZStack - 이미지/텍스트를 앞뒤로 stack
+
+
+
+![image-20211024090701583](/images/2021-10-24-swiftstudy3/image-20211024090701583.png)
+
+레슨 4까지 배운 내용들을 토대로, 카드 게임을 swift로 표현하는 챌린지 수업
+
+
+
+
+
+
 ```swift
 import SwiftUI
 
@@ -80,7 +100,7 @@ struct ContentView_Previews: PreviewProvider {
 
 
 
-
+![image-20211024090627229](/images/2021-10-24-swiftstudy3/image-20211024090627229.png)
 
 
 
