@@ -78,10 +78,16 @@ tags:
 
 **Lesson 6 Challenge**
 
-Challenge:
- 4 people have dinner and want to split the bill.
- Calculate the total with tax then how much each person owes.
- Assign it to the variable, 'split' and then print it out to the console area.
+<u>수학 공식 참고용:</u>
+
+![image-20211024091757509](/images/2021-10-24-swiftstudy4/image-20211024091757509.png)
+
+
+
+**Challenge:**
+	4 people have dinner and want to split the bill.
+	Calculate the total with tax then how much each person owes.
+	Assign it to the variable, 'split' and then print it out to the console area.
 
 
 
