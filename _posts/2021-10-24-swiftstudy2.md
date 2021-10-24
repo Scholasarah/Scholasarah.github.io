@@ -14,13 +14,24 @@ tags:
 
 **Lesson 4:SwiftUI Views and Containers**
 
+![image-20211024090233135](/images/2021-10-24-swiftstudy2/image-20211024090233135.png)
+
+
+
 Image("logo").resizable().aspectRatio(contentMode: .fit)
 → logo 이미지를 삽입해서, resize (전체 페이지로 크게 키움) & content mode 로 화면에 맞게 비율을 맞추는 표현.
 
 
 
 
+
 **Lesson 4 Challenge**
+
+![image-20211024090259842](/images/2021-10-24-swiftstudy2/image-20211024090259842.png)
+
+
+
+<u>Swift 작성법:</u>
 
 
 
@@ -73,10 +84,6 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 ```
-
-
-
-
 
 
 
